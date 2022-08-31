@@ -1,0 +1,90 @@
+# Site settings
+title: Medisch centrum de Kruidenhof
+email: info@mcdekruidenhof.nl
+url: ""
+description: ""
+keywords: ""
+portfolio_subtitle: "Bij Medisch centrum de Kruidenhof kunt u terecht bij een gevarieerde aanbod in medische en para-medische zorg.<br/> Ontdekt ze hier: "
+meta_author: ""
+
+map: "https://maps.google.com/maps?width=100%25&height=450&hl=en&q=Kruidenhof%203%201112%20NV%20Diemen+(Medisch%20centrum%20de%20Kruidenhof)&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 2780e3 #80B3FF
+  primary-rgb: "39, 128, 227" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Medisch centrum de Kruidenhof
+  location: Adres
+  openingtimes: Openingstijden
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Kruidenhof 3 
+  - line: 1112 NV Diemen 
+  - line: 'Tel: <a class="text-white" href="callto:0207653876">020 76 538 76</a>'
+  - line: 'Email: <a class="text-white" href="mailto:info@mcdekruidenhof.nl">info@mcdekruidenhof.nl</a>'
+
+# Credits content
+openingtimes:
+  - day: Maandag
+    time: "8:00 – 16:30"
+  - day: Dinsdag
+    time: "8:00 – 16:30"
+  - day: Woensdag
+    time: "8:00 – 16:30"
+  - day: Donderdag
+    time: "8:00 – 16:30"
+  - day: Vrijdag
+    time: "8:00 – 16:30"
+  - day: Zaterdag
+    time: "10:00 - 15:00"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+partners: 
+  - img: medihealth.png
+    alt: Medihealth
+    site: "https://medihealthgroup.nl"
+  - img: tandarts.png
+    alt: Tandartsn groepspraktijk de Kruidenhof
+    site: "https://www.tandartsendekruidenhof.nl"
+  - img: dieetplanet.png
+    alt: Dieetplanet
+    site: "https://www.dieetplaneet.nl/"
+  - img: praktijkmaduh.png
+    alt: Praktijk Maduh
+    site: "https://www.praktijk-maduh.nl"
+  - img: implantologie.png
+    alt: Implantologie Diemen
+    site: "https://implantologiediemen.nl/specialisatie-implantologie-diemen/"
+  # - img: 24dentalprint.png
+  #   alt: 24 Dental print
+  #   site: "https://google.com"
+  
+#for posts
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       permalink: ""
+
+
+sass:
+  style: compact

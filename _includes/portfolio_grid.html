@@ -1,0 +1,27 @@
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container portfolio-flex-grid">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-4">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                    <span class="subtitle">{{site.portfolio_subtitle}}</span>
+                </div>
+            </div>
+            <div class="portfolio-flex-row">
+                {% for partner in site.partners %}
+                    <div class="portfolio-flex-item portfolio-item">
+                        <a href="{{partner.site}}" target="_blank" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ partner.img }}" class="img-responsive w-100" alt="{{ partner.alt }}">
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
