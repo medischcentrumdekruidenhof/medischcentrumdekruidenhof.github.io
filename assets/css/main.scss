@@ -512,6 +512,17 @@ footer .footer-below {
     font-size:2.5em;
     display:block;
 }
+@media(max-width:768px) {
+    .header .large {
+        font-size:3em;
+        display:block;
+    }
+    
+    .header .small {
+        font-size:1.5em;
+        display:block;
+    }
+}
 
 .banner .logo {
     width: 12%;
